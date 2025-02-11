@@ -1,0 +1,46 @@
+/* Style for body */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif; /* Change font */
+    text-align: center;
+}
+
+/* Style for the heading */
+h1 {
+    color: #003366; /* Dark Blue */
+}
+
+/* Style for links */
+a {
+    color: #ff6600; /* Orange links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+/* Change link color when hovered */
+a:hover {
+    color: #cc0000; /* Red */
+}
+
+/* Add padding and a border to the menu */
+ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #003366;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+li a {
+    color: white;
+    padding: 10px;
+    background-color: #ff6600;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: #cc0000;
+}
